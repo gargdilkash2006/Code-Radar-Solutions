@@ -10,6 +10,5 @@ int main() {
     scanf("%s",hobby);
     printf("Hobby: %s",hobby);
 
-
     return 0;
 }
