@@ -17,7 +17,7 @@ int main(){
         printf("%i",z);
     }
     else{
-        printf("%i",r)
+        printf("%i",r);
     }
     return 0;
 }
