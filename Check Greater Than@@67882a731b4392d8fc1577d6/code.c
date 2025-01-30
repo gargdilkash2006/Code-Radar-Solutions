@@ -1,9 +1,11 @@
 #include <stdio.h>
 int main() {
-    int x=5 , y=3;
-    if(x>y);
+    int x , y;
+    if(x>y) {
     print("True");
-    else;
+    }
+    else {
     print("False");
+    }
     return 0;
 }
