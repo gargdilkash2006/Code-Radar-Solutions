@@ -3,10 +3,10 @@ int main() {
     int i;
     scanf("%d",&x);
     if (i%5==0 && i%11==0) {
-        printf("Divsible")
+        printf("Divsible");
     }
     else {
-        printf("Not Divisble")
+        printf("Not Divisble");
     }
     return 0;
 }
