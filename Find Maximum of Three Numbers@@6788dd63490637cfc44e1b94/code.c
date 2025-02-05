@@ -1,17 +1,17 @@
 #include <stdio.h>
 int main() {
-    float a , b , c;
-    scanf("%f",&a);
-    scanf("%f",&b);
-    scanf("%f",&c);
+    int a , b , c;
+    scanf("%d",&a);
+    scanf("%d",&b);
+    scanf("%d",&c);
     if(a>b && a>c) {
-        printf("%f",a);
+        printf("%d",a);
     }
-    if(b>c && b>a) {
-        printf("%f",b);
+    else if(b>c && b>a) {
+        printf("%d",b);
     }
     else {
-        printf("%f",c);
+        printf("%d",c);
     }
     return 0;
 }
