@@ -3,7 +3,7 @@ int main() {
     int i;
     scanf("%d",&i);
     if (i%5==0 && i%11==0) {
-        printf("Divsible");
+        printf("Divisible");
     }
     else {
         printf("Not Divisble");
