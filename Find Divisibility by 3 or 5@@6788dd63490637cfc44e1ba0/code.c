@@ -2,10 +2,10 @@
 int main() {
     int s;
     scanf("%d",&s);
-    if(s%3==0) {
+    if(s%3==0 && s%5!=0) {
         printf("Divisible by 3");
     }
-    else if(s%5==0) {
+    else if(s%5==0 && s%3!=0) {
         printf("Divsible by 5");
     }
     else if(s%3==0 && s%5==0) {
