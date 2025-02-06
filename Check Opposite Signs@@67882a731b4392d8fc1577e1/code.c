@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main() {
-    int s ,r ;
+    int s , r ;
     scanf("%d",&s);
     scanf("%d",&r);
     if(s>0 && r<o) {
