@@ -5,13 +5,13 @@ int main() {
     if(c==A) {
         printf("Excellent");
     }
-    if else(c==B) {
+    else if(c==B) {
         printf("Good");
     }
-    if else(c=C) {
+    else if(c=C) {
         printf("Average");
     }
-    if else(c==D) {
+    else if(c==D) {
         printf("Below Average");
     }
     else {
