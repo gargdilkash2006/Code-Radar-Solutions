@@ -1,8 +1,8 @@
 #include<stdio.h>
 int main(){
-    int a,b;
+    float a,b;
     char c;
-    scanf("%i %i",&a,&b);
+    scanf("%f %f",&a,&b);
     scanf(" %c",&c);
     int x = a+b;
     int y = a-b;
@@ -10,11 +10,14 @@ int main(){
     int m = a/b;
     switch(c){
     case '+':
-    printf("%d",x);
+        printf("%d",x);
+        break;
     case '-':
-    printf("%d", y);
+        printf("%d", y);
+        break;
     case '*':
     printf("%d", z);
+    break;
     case '/':
     if (b==0){
         printf("error\n");
