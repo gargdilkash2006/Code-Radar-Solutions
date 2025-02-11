@@ -23,9 +23,8 @@ int main(){
         printf("%d", m);
     }
     break;
-    default{
+    default:
         printf("error\n");
-    }
     }
     return 0;
 }
