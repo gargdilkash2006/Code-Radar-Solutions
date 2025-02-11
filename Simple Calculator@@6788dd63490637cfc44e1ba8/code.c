@@ -4,7 +4,7 @@ int main(){
     char c;
     scanf("%i %i",&a,&b);
     scanf(" %c",&c);
-    switch(c)
+    switch(c){
     case '+':
     printf("%d", a+b);
     case '-':
@@ -17,6 +17,11 @@ int main(){
     }
     else{
         printf("%d", a/b);
+        break;
+    }
+    default{
+        printf("error");
+    }
     }
     return 0;
 }
