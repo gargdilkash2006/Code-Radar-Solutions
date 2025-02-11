@@ -21,8 +21,8 @@ int main(){
     }
     else{
         printf("%d", m);
-        break;
     }
+    break;
     default{
         printf("error\n");
     }
