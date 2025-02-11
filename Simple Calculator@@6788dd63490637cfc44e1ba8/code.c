@@ -2,22 +2,21 @@
 int main(){
     int a,b;
     char c;
-    scanf("%i%i%c",&a,&b,&c);
-    int x=a*b;
-    int y = a/b;
-    int z = a+b;
-    int r = a-b;
-    if (c=='*'){
-        printf("%i",x);
-    }
-    else if(c =='/'){
-        printf("%i",y);
-    }
-    else if(c=='+'){
-        printf("%i",z);
+    scanf("%i %i",&a,&b);
+    scanf(" %c",&c);
+    switch(c)
+    case '+':
+    printf("%d", a+b);
+    case '-':
+    printf("%d", a-b);
+    case '*':
+    printf("%d", a*b);
+    case '/':
+    if (b==0){
+        printf("error");
     }
     else{
-        printf("%i",r);
+        printf("%d", a/b);
     }
     return 0;
 }
