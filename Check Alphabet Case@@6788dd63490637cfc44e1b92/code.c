@@ -5,8 +5,11 @@ int main() {
     if(q=='A') {
         printf("Uppercase");
     }
-    else {
+    else if(q=='a'){
         printf("Lowercase");
+    }
+    else {
+        printf("Not an alphabet")
     }
     return 0;
 }
