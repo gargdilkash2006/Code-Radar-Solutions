@@ -10,7 +10,7 @@ int main () {
     a = x+y;
     b = x-y;
     c = x*y;
-    d = x/y;
+    d = float x/y;
     if(op == 'a') {
         printf("%d",a);
     }
@@ -20,8 +20,11 @@ int main () {
     else if(op == 'c') {
         printf("%d",c);
     }
-    else {
+    else if{
         printf("%f",d);
+    }
+    else {
+        printf("Invalid")
     }
     return 0;
 }
