@@ -5,11 +5,9 @@ int main() {
     if(c=='A') {
         printf("Excellent");
     }
-    switch
     else if(c=='B') {
         printf("Good");
     }
-    switch
     else if(c=='C') {
         printf("Average");
     }
