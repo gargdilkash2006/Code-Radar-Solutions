@@ -6,16 +6,16 @@ int main() {
         printf("Excellent",%c);
     }
     else if(c=='B') {
-        printf("Good",%c);
+        printf("Good");
     }
     else if(c=='C') {
-        printf("Average",%c);
+        printf("Averagee");
     }
     else if(c=='D') {
-        printf("Below Average",%c);
+        printf("Below Average");
     }
     else {
-        printf("Fail",%c);
+        printf("Fail");
     }
     return 0;
 }
