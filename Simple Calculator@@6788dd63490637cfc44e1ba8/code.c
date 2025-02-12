@@ -1,11 +1,12 @@
 #include<stdio.h>
 int main () {
-    int x , y , op;
+    int x , y ;
+    char op;
     int a , b , c;
     float d;
     scanf("%d",&x);
     scanf("%d",&y);
-    scanf("%d",&op);
+    scanf("%c",&op);
     a = x+y;
     b = x-y;
     c = x*y;
