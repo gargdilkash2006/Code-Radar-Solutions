@@ -1,33 +1,26 @@
 #include<stdio.h>
-int main(){
-    float a,b;
-    char c;
-    scanf("%f %f",&a,&b);
-    scanf(" %c",&c);
-    int x = a+b;
-    int y = a-b;
-    int z = a*b;
-    int m = a/b;
-    switch(c){
-    case '+':
-        printf("%d",x);
-        break;
-    case '-':
-        printf("%d", y);
-        break;
-    case '*':
-    printf("%d", z);
-    break;
-    case '/':
-    if (b==0){
-        printf("error\n");
+int main () {
+    int x , y , op;
+    int a , b , c;
+    float d;
+    scanf("%d",&x);
+    scanf("%d",&y);
+    scanf("%d",&op);
+    a = x+y;
+    b = x-y;
+    c = x*y;
+    d = x/y;
+    if(op == 'a') {
+        printf("%d",a);
     }
-    else{
-        printf("%d", m);
+    else if(op == 'b') {
+        printf("%d",b);
     }
-    break;
-    default:
-        printf("error\n");
+    else if(op == 'c') {
+        printf("%d",c);
+    }
+    else {
+        printf("%f",d);
     }
     return 0;
 }
