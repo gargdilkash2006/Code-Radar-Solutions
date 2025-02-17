@@ -1,12 +1,11 @@
 #include <stdio.h>
-int main() {
-    int x , y;
-    scanf("%d %d", &x , &y );
-    if (x==y) {
+int main () {
+    int s , r;
+    scanf("%d %d",&s,&r);
+    if(s==r) {
         printf("True");
     }
     else {
         printf("False");
     }
-    return 0;
 }
