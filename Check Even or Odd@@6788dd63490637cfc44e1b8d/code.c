@@ -1,12 +1,11 @@
 #include <stdio.h>
-int main() {
-    int x;
-    scanf("%d",&x);
-    if(x%2==0) {
-        printf("Even");
+int main () {
+    int leap;
+    scanf("%d",&leap);
+    if(leap%400==0 || (leap%4==0 && leap%100!=0)){
+        printf("leap year");
     }
     else {
-        printf("Odd");
+        printf("not a leap year");
     }
-    return 0;
-}
+    }
