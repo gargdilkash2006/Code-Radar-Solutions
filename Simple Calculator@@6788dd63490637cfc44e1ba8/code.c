@@ -17,7 +17,7 @@ int main () {
         printf("%d",b);
     }
     else if(op == 'c') {
-        printf("%d",c);
+        printf("%c",c);
     }
     else if{
         printf("%f",d);
