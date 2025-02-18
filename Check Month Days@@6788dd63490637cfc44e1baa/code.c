@@ -8,7 +8,6 @@ int main () {
     else if(s==2) {
         printf("28");
     }
-    else if(s==3 )
     else {
         printf("Invalid month");
     }
