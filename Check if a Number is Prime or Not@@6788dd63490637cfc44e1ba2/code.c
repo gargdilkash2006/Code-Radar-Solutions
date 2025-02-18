@@ -12,6 +12,6 @@ int main () {
     }
     if (x==2)
     {
-        printf("prime number ");
+        printf("Prime");
     }
 }
