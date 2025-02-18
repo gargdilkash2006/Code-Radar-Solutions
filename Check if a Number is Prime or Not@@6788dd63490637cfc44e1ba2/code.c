@@ -1,16 +1,16 @@
 #include <stdio.h>
 int main () {
-    int x;
-    scanf("%d",&x);
-    int n = 0;
+    int n;
+    scanf("%d",&n);
+    int x = 0;
     
-    for(int i>=1;i<=n;i++)
-    {
-        if(x%i==0){
-            n = n + 1;
+    for(int i=1;i<=n;i++){
+        if(n%i==0)
+        {
+            x = x + 1;
         }
     }
-    if (n==2)
+    if (x==2)
     {
         printf("prime number ");
     }
