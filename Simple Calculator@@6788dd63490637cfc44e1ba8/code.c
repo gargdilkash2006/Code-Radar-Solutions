@@ -3,7 +3,6 @@ int main () {
     int x , y ;
     char op;
     int a , b , c;
-    float d;
     scanf("%d",&x);
     scanf("%d",&y);
     scanf("%c",&op);
