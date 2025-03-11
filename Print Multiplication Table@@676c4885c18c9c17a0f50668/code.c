@@ -2,7 +2,7 @@
 int main () {
     int N;
     scanf("%d",&N);
-    for (int i=N ; i<=N*10 ;i= i+N) {
-        printf("%d ",i);
+    for(int i= 1 ; i<=10 ; i++) {
+        printf("%d * i = " , N);
     }
 }
