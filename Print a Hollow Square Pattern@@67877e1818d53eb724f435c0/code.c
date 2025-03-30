@@ -11,6 +11,6 @@ int main () {
                 printf(" ");
             }
         }
-                printf(" ");
+                printf("\n");
     }
 }
