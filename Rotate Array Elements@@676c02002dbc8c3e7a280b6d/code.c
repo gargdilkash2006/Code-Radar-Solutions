@@ -12,7 +12,7 @@ int main() {
     int count = 0, new_arr[n];
     for(i=n-k-1;i<n;i++)
         new_arr[count++] = arr[i];
-    for(i=0;i<k;i++)
+    for(i=0;i<=k;i++)
         new_arr[count++] = arr[i];
 
     for(i=0;i<n;i++)
