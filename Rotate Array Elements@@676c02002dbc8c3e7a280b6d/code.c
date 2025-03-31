@@ -10,7 +10,7 @@ int main() {
     scanf("%d", &k);
 
     int count = 0, new_arr[n];
-    for(i=k;i<n;i++)
+    for(i=n-k-1;i<n;i++)
         new_arr[count++] = arr[i];
     for(i=0;i<k;i++)
         new_arr[count++] = arr[i];
